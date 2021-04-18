@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Max Temperature Visualization</title>
+    <title>Landing Page</title>
      <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheeet" href="style.css">
@@ -34,10 +34,10 @@
                                 Plots
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="temp.html">Max Temperature</a>
-                              <a class="dropdown-item" href="humidity.html">Humidity </a>
-                              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                              <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                                <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                                <a class="dropdown-item" href="humidity.html">Humidity </a>
+                                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="wind.html">Wind Speed</a>
                             </div>
                         </li>
                     <li class="nav-item active">
@@ -59,20 +59,22 @@
                 
                 <div class="row">
                     <div class="col-8">
-                        <style>.col-8{padding-left: 4cm;
-                                        padding-right: 1.5cm;
+                        <style>.col-8{padding-left: 3cm;
+                                        padding-right: 1cm;
                                       top:2cm}</style>
                         <div class="box">
                             <div class="page-header">
-                                <h1 class="title">Wind Speed</h1>
+                                <h1 class="title">Summary: Latitude vs. X</h1>
                                 <hr></hr>
                             </div>
                             <div class="box">
-                            	<img style="float:rone;"src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="500" width="500" align-self='center' >
-                                <p style="margin-bottom: 15px; align-content:center ;" ></p>
-                                <p class="category"> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
+                            	<img style="padding:15px; float:left;"src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="230" width="260" align='left'>
+                                <p style="margin-top: 20px;"></p>
+                                <p class="category"> The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.
                                 </p>
-                                
+                                <p style="margin-top: 20px;"></p>
+	                            <p class="category">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.
+	                			</p>
                             </div>
                         </div>
                     </div>
@@ -91,7 +93,7 @@
                             <div class="box-img">
                                <a href="temp.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="160" width="158" ></a>
                                <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" height="160" width="158" ></a>
-                               <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="158" ></a>
+	                           <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="158" ></a>
                                <a href="wind.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="160" width="158" ></a>
 	                           
 	                        </div>
@@ -113,3 +115,4 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
+

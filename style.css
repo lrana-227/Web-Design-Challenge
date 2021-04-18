@@ -1,0 +1,22 @@
+.navbar-brand{
+    left:2cm;
+    top:2cm;
+    font-size: 28px;
+    color: #eee;
+    text-align: left;
+    background-color: lightseagreen;
+  }
+  .navbar-toggler-icon{
+  font-size: 20cm;
+  background-color: #4aaaa5;
+  color: #eee;
+  position: absolute;
+  left: 20%}
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
